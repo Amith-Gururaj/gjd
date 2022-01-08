@@ -19,7 +19,7 @@ public class CodingChallenge1Application {
 		EmployeeService empservice=ac.getBean(EmployeeService.class);
 		
 		empservice.addEmployee(new Employee(1,"Mahesh",26000));
-		empservice.addEmployee(new Employee(2,"Vishal",36000));
+		empservice.addEmployee(new Employee(2,"Vivek",36000));
 		empservice.addEmployee(new Employee(3,"Arun",16000));
 		empservice.addEmployee(new Employee(4,"Amith",26000));
 		empservice.addEmployee(new Employee(5,"Harish",36000));
